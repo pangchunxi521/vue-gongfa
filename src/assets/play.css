@@ -1,0 +1,29 @@
+.ivu-carousel .ivu-carousel-dots {
+	display: block;
+	position: absolute;
+	bottom: -15px
+}
+
+.ivu-carousel-dots li {
+	height: 80px;
+	width: 230px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0 2px;
+	padding: 7px 0;
+	cursor: pointer;
+	opacity: .3;
+}
+
+.ivu-carousel .ivu-carousel-dots li>button {
+	width: 230px;
+	height: 80px;
+}
+
+.ivu-carousel-dots li.ivu-carousel-active>button {
+	opacity: 0.5;
+	width: 230px;
+	height: 80px;
+}
